@@ -1,0 +1,11 @@
+{
+  "index": "Introducción",
+  "about": {
+    "type": "page",
+    "title": "Acerca de",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "back": "Como usar el sistema"
+}
