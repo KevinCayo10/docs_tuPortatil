@@ -1,0 +1,35 @@
+import { Callout } from "nextra/components";
+import React from "react";
+import Image from "next/image";
+
+# **Recomendaciones**
+
+Este módulo le ofrece la posibilidad de visualizar y solicitar productos tecnológicos recomendados por características similares y por interes de otros usuarios
+
+### 1. Ingresar a recomendaciones
+
+Para ingresar a las recomendaciones y poder visualizar los productos tecnológicos recomendados. Se debe dar click en la opción "Recomendación":
+![Hello](assets/images/pantalla_ir_recomendacion.png)
+
+##### No hay recomendaciones
+
+Las recomendaciones se generan cuando se interactua con los productos, por lo tanto si no existe interacciones el sistema no genera recomendaciones. El sistema le avisará que no existe recomendaciones y tiene que interactuar con los productos.
+
+![Hello](assets/images/pantalla_no_recomendaciones.png)
+
+<Callout type="info">
+  La cantidad de productos se va reflejar en el componente, donde cada vez que
+  se aplique filtros va a disminuir.
+</Callout>
+
+##### Cuando existe recomendaciones
+
+Las recomendaciones se generan cuando se interactua con los productos, por lo tanto si el consumidor realizo interacciones como vista o favoritos. El sistema recomendará y se cargará los productos y la cantidad de productos a recomendar.
+
+![Hello](assets/images/pantalla_recomendaciones_contenido.png)
+
+#### 3. Recomendaciones en el detalle del producto
+
+Al ingresar al detalle del producto. El sistema le recomendará productos similares, en este caso recomendaciones basado en contenido. La productos recomendados se visualizará en la parte inferior.
+
+![Hello](assets/images/pantalla_detalle_producto_recomendaciones.png)

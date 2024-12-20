@@ -1,4 +1,4 @@
-# **Introducción a la Plataforma ATIENDO**
+# **Introducción a la Plataforma TuPortátil - Sistema de Recomendación\***
 
 ![Hello](../assets/images/pantalla_inicio.png)
 
